@@ -1,0 +1,105 @@
+.post-grid {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.post-profile {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    justify-content: center;
+}
+.post-profile-pic {
+    display: flex;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.post-profile-description {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.post-profile-name {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 3px;
+}
+.post-profile-name-description {
+    font-size: 14px;
+    color: gray;
+    margin-top: -16px;
+}
+.trending-icon {
+    width: 30px;
+    color: rgb(113, 197, 98);
+    margin-top: 12px;
+}
+.trending-down-icon {
+    width: 30px;
+    color: rgb(167, 23, 26);
+    margin-top: 12px;
+}
+.post-join-button {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: rgb(23, 120, 242);
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    margin-right: 20px;
+    
+}
+.option-icon-task-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.option-post-button {
+    flex: 1;
+    height: 45px;
+    margin-top: -7px;
+    background-color: white;
+    border: none;
+}
+.option-post-button:hover {
+    background-color: rgb(220,220,220);
+}
+
+
+.post-text-words, .post-text-name {
+    display: inline;
+}
+.post-text-description {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.post-text-name {
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    background-color: rgb(249, 215, 28);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
