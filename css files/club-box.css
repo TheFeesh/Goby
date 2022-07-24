@@ -1,0 +1,95 @@
+.dropbtn * {
+    pointer-events: none;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    width: 250px;
+    height: 30px;
+    margin-left: 30px;
+    padding: none;
+    font-size: 16px;
+    border: 40px black;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    outline: rgb(23, 120, 242) solid 1px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    overflow: auto;
+    
+    margin-left: 30px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: rgb(220, 220, 220);}
+
+.show {display: block;}
+
+
+
+
+.club-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    
+}
+
+.club-type {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 5px;
+}
+.club-box i {
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    margin-top: 13px;
+}
+
+.club-box-dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    height: 30px;
+    width: 250px;
+}
+
+.club-title {
+    width: 200px;
+    
+    background-color: pink;
+}
+
+.club-box-dropdown i {
+    width: 40px;
+    height: 30px;
+    margin-top: -5000px;
+    background-color: lightblue;
+}
